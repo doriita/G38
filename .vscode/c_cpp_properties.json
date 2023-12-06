@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",    //Möjligtvis inte
+                "${workspaceFolder}/include", //Möjligtvis inte
+                "/usr/local/include/SDL2", "/usr/local/include"
+            ],
+            "compilerPath": "/usr/local/bin/g++-13",
+            "intelliSenseMode": "macos-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
